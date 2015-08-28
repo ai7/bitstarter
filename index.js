@@ -1,4 +1,6 @@
 var express = require('express')
+var fs = require('fs');
+
 var app = express()
 
 var myReadFile = function(fname) {
